@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <title>HEllo</title>
+    <title>HAPPY BIRTHDAY</title>
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <style>
         html, body, .wrapper {
@@ -51,7 +51,7 @@
         <img class="img" src="main.jpg" alt="">
             <div class="title">
                 <div>АНХОР кафе - 18:30</div>
-                <div id="time">dasds</div>
+                <div id="time"></div>
             </div>
         </div>
 
@@ -79,7 +79,7 @@
 
           const sec = time.seconds() < 10 ? '0' + time.seconds() : time.seconds()
           const a = time.hours() + ':' + time.minutes() + ':' + sec
-          $('#time').html(a)
+          $('#time').html('Увидимся через - ' + a)
         }
 
         for (var i = 2; i < 18; i++) {
